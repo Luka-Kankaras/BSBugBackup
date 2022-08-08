@@ -1,0 +1,16 @@
+private void Move(float emissionAngle, float swayIntensity, Random random) {
+            float angleCoefficient = UtilMath.Angle(direction, position - startPosition) / (emissionAngle / 2),
+                minMagIncrease = -swayIntensity / 2, maxMagIncrease = swayIntensity / 2;
+
+            if (angleCoefficient < 0) maxMagIncrease *= 1 + angleCoefficient;
+            else minMagIncrease *= 1 + angleCoefficient;
+
+            Vector2 magnitudeIncrease = swayComponent;
+            magnitudeIncrease.Normalize();
+            magnitudeIncrease *= (float) random.NextDouble() * (maxMagIncrease - minMagIncrease) + minMagIncrease;
+
+            Vector2 result = direction + (swayComponent += magnitudeIncrease);
+            result.Normalize();
+            
+            position += result * speed;
+        }

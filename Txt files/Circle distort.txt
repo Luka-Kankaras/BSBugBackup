@@ -1,0 +1,9 @@
+float2 texCoord = input.TextureCoordinates;
+    float dx = texCoord.x - 0.5, dy = texCoord.y - 0.5;
+    
+    float x = (dx*dx + dy*dy) - (radius*radius); 
+
+    if(x < 0) {
+        texCoord -= float2(dx, dy) * x;
+    }
+	return tex2D(SpriteTextureSampler, texCoord) * input.Color;

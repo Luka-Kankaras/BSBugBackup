@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/User/RiderProjects/OnionFramework/OnionFramework/Content/Fonts/DebugFont.spritefont","C:/Users/User/RiderProjects/OnionFramework/OnionFramework/Content/bin/DesktopGL/Fonts/DebugFont.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.3966507
+"C:/Users/User/RiderProjects/OnionFramework/OnionFramework/Content/Shaders/CircularDistortion.fx","C:/Users/User/RiderProjects/OnionFramework/OnionFramework/Content/bin/DesktopGL/Shaders/CircularDistortion.xnb","EffectProcessor","CompiledEffectContent",856,1027,0.5863665
+"C:/Users/User/RiderProjects/OnionFramework/OnionFramework/Content/Shaders/TestShader.fx","C:/Users/User/RiderProjects/OnionFramework/OnionFramework/Content/bin/DesktopGL/Shaders/TestShader.xnb","EffectProcessor","CompiledEffectContent",1257,1791,0.6314359
+"C:/Users/User/RiderProjects/OnionFramework/OnionFramework/Content/Textures/tex2.jpg","C:/Users/User/RiderProjects/OnionFramework/OnionFramework/Content/bin/DesktopGL/Textures/tex2.xnb","TextureProcessor","Texture2DContent",144647,3686485,0.421232
